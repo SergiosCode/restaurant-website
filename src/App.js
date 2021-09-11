@@ -1,22 +1,20 @@
 
 import './App.css';
 import Header from './components/Header';
-import styled from 'styled-components';
+import Body from './components/Body';
+import Highlights from './components/Highlights';
 
 
 
 
 function App() {
   return (
-    <Page className="App">
+    <div className="App">
      <Header/>
-    </Page>
+    <Body />
+    <Highlights/>
+    </div>
   );
 }
 
 export default App;
-
-
-const Page = styled.div`
-
-`
