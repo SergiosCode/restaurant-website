@@ -9,9 +9,7 @@ function Header() {
         <h2>Exquisite dining since 1989 </h2>
         <h3>Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.</h3>
       </PageText>
-      <BookButton>
-          BOOK A TABLE
-      </BookButton>
+      <BookButton>BOOK A TABLE</BookButton>
     </Container>
   );
 }
@@ -38,13 +36,12 @@ const Container = styled.div`
     width: 60vh;
   }
 
-  h3{
-      font-size: 17px;
-      font-weight: 100;
-      letter-spacing: .12rem;
-      line-height: 1.8;
-      width: 52vh;
-
+  h3 {
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 0.12rem;
+    line-height: 1.8;
+    width: 52vh;
   }
 
   &:before {
@@ -68,21 +65,21 @@ const PageText = styled.div`
 `;
 
 const BookButton = styled.button`
-margin-top: 50px;
-color: white;
-background-color: rgb(17,17,17);
-border: 2px white solid;
-width: 280px;
-height: 70px;
-letter-spacing: .2rem;
-font-size: 15px;
-display: flex;
-align-items: center; 
-justify-content: center;
+  margin-top: 50px;
+  color: white;
+  background-color: rgb(17, 17, 17);
+  border: 2px white solid;
+  width: 280px;
+  height: 70px;
+  letter-spacing: 0.2rem;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-&:hover{
+  &:hover {
     background-color: rgb(249, 249, 249);
     color: black;
     transition: 250ms;
-}
-`
+  }
+`;
