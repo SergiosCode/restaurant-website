@@ -23,7 +23,7 @@ export default Info
 
 
 const Container = styled.div`
-height: 30vh;
+height: 25vh;
 background-color: rgb(17, 17, 17);
 display: flex;
 align-items: center;
