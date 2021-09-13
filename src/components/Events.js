@@ -15,18 +15,14 @@ function Events() {
       </ImageContainer>
       <ImageText>
         <h1>Family Gathering</h1>
-        <h3>We love catering for entire families. So please bring everyone along for a special meal with your 
-  loved ones. We’ll provide a memorable experience for all.</h3>
-  <BookButton>
-        BOOK A TABLE
-      </BookButton>
-      <EventOptions>
-      <h2>Family Gathering</h2>
-      <h2>Special Events</h2>
-      <h2>Social Events</h2>
-      </EventOptions>
+        <h3>We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.</h3>
+        <BookButton>BOOK A TABLE</BookButton>
+        <EventOptions>
+          <h2>Family Gathering</h2>
+          <h2>Special Events</h2>
+          <h2>Social Events</h2>
+        </EventOptions>
       </ImageText>
-      
     </Container>
   );
 }
@@ -41,41 +37,39 @@ const Container = styled.div`
 const ImageContainer = styled.div`
   margin-left: 10%;
   margin-top: 10%;
-  
 
-  img{
+  img {
     position: relative;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     box-shadow: rgb(0 0 0 / 80%) 0px 26px 30px -10px, rgb(0 0 0 / 60%) 0px 16px 10px -10px;
-
   }
 
-  svg{
-      position: relative;
-      bottom: 140px;
-      right: -520px;
-      z-index: -1;
+  svg {
+    position: relative;
+    bottom: 140px;
+    right: -520px;
+    z-index: -1;
   }
 `;
 
 const ImageText = styled.div`
-margin-left: 100px;
-margin-top: 200px;
-h1{
-font-size: 40px;
-}
+  margin-left: 100px;
+  margin-top: 200px;
+  h1 {
+    font-size: 40px;
+  }
 
-h3{
+  h3 {
     width: 55%;
     font-weight: 100;
-}
-`
+  }
+`;
 
 const BookButton = styled.button`
-flex:none;
+  flex: none;
   margin-top: 50px;
   color: white;
   background-color: rgb(17, 17, 17);
@@ -90,7 +84,7 @@ flex:none;
   cursor: pointer;
 
   &:hover {
-    background-color: rgb(249,249,249);
+    background-color: rgb(249, 249, 249);
     border: 2px black solid;
     color: black;
     transition: 250ms;
@@ -98,22 +92,20 @@ flex:none;
 `;
 
 const EventOptions = styled.div`
-margin-top: 16%;
- h2{
-   margin-top: 20px;
-   font-size: 18px;
-   font-weight: 500;
-   cursor: pointer;
-   color: rgb(128,128,128);
-   transition: 250ms;
-   width: 20%;
+  margin-top: 16%;
+  h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+    transition: 250ms;
+    width: 20%;
 
-
-   &:hover{
-     color: black;
-     font-size: 20px;
-     font-weight: bold;
-     
-   }
- }
-`
+    &:hover {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+`;

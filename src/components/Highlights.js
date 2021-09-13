@@ -93,8 +93,8 @@ const MainText = styled.div`
 const Featured = styled.div`
   margin-top: 300px;
   margin-left: -20%;
-  
-   hr {
+
+  hr {
     width: 600px;
     position: absolute;
   }
