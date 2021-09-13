@@ -4,6 +4,8 @@ import Body from "./components/Body";
 import Highlights from "./components/Highlights";
 import Events from "./components/Events";
 import Reservation from "./components/Reservation";
+import Info from "./components/Info";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Highlights />
       <Events />
       <Reservation />
+      <Info/>
     </div>
   );
 }
