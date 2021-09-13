@@ -76,6 +76,7 @@ const BookButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 
   &:hover {
     background-color: rgb(249, 249, 249);
