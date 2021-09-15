@@ -37,13 +37,17 @@ function ReservationPage() {
           </select>
         </TimeArea>
         <PeopleDiv>
-          <svg xmlns="http://www.w3.org/2000/svg" width="7" height="3">
-            <path fill="#9E7F66" d="M6.425 2.977V.601H.629v2.376z" />
-          </svg>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="3">
+              <path fill="#9E7F66" d="M6.425 2.977V.601H.629v2.376z" />
+            </svg>
+          </button>
           <h2>3 people</h2>
-          <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11">
-            <path fill="#9E7F66" d="M6.227 10.156V6.727h3.429V4.342H6.227V.913H3.842v3.429H.413v2.385h3.429v3.429z" />
-          </svg>
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11">
+              <path fill="#9E7F66" d="M6.227 10.156V6.727h3.429V4.342H6.227V.913H3.842v3.429H.413v2.385h3.429v3.429z" />
+            </svg>
+          </button>
         </PeopleDiv>
         <BookButton>MAKE RESERVATION</BookButton>
       </Reservation>
@@ -224,7 +228,6 @@ const TimeArea = styled.div`
     outline: none;
     margin: 25px 50px 0 20px;
     background: rgb(249, 249, 249);
-    
   }
 `;
 
@@ -254,12 +257,16 @@ const PeopleDiv = styled.div`
     letter-spacing: 2px;
     color: #323a47;
   }
-
-  svg {
+  button {
+    border: none;
+    background: rgb(249, 249, 249);
     cursor: pointer;
+    svg {
+      cursor: pointer;
 
-    &:hover{
-      background: yellow;
+      &:hover {
+        background: yellow;
+      }
     }
   }
 `;
